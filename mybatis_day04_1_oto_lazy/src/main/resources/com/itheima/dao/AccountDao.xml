@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace 必须写dao接口的全类名
+-->
+<mapper namespace="com.itheima.dao.AccountDao">
+    <resultMap id="accounts" type="account">
+        <id  property="id" column="id"></id>
+        <result property="money" column="money"></result>
+        <result property="cardName" column="cardName"></result>
+        <result property="u_id" column="u_id"></result>
+        <association property="user"  javaType="user" fetchType="lazy" column="u_id" select="com.itheima.dao.UserDao.findById"></association>
+    </resultMap>
+
+    <select id="findAll" resultMap="accounts" >
+        select * from account
+    </select>
+</mapper>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+采用动态代理模式开发
+
+  namespace必须写dao接口的全类名
+
+-->
+<mapper namespace="com.itheima.dao.UserDao">
+    <!--id属性必须dao接口的方法名一-->
+
+    <!--
+       resultMap: 结果集的映射：属性名和列名不一致的情况下, 多表查询
+        id：唯一的标志
+        type：返回值类型， 查询出来的数据最终还是封装到pojo对象中
+       子标签：id: 一般用来配置主键, 属性：column ，列名  property:pojo中的属性名
+                  如果属性名和列名一致，属性名可以省略，建议都写上
+               result: 非主键的映射
+    -->
+    <resultMap id="users" type="User">
+        <id column="u_id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="sex" property="sex"></result>
+        <result column="address" property="address"></result>
+    </resultMap>
+    
+    <select id="findAll" resultMap="users">
+        SELECT * from sys_user
+    </select>
+
+
+
+</mapper>

@@ -1,0 +1,661 @@
+2018-10-11 09:02:47,494 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 09:02:47,940 446    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:02:47,940 446    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:02:47,940 446    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:02:47,940 446    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:03:49,379 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 09:03:49,502 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:03:49,502 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:03:49,502 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:03:49,502 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:03:49,735 356    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 09:05:54,662 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 09:05:54,792 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:05:54,792 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:05:54,792 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:05:54,792 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:05:54,905 243    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 09:06:42,493 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 09:06:42,627 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:06:42,627 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:06:42,627 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:06:42,627 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:06:42,738 245    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 09:08:13,282 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 09:08:13,402 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:08:13,402 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:08:13,402 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:08:13,403 122    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 09:08:13,504 223    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 09:08:14,242 961    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1259769769.
+2018-10-11 09:08:14,242 961    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b168fa9]
+2018-10-11 09:08:14,244 963    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==>  Preparing: SELECT * from sys_user 
+2018-10-11 09:08:14,327 1046   [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==> Parameters: 
+2018-10-11 09:08:14,390 1109   [           main] DEBUG om.itheima.dao.UserDao.findAll  - <==      Total: 5
+2018-10-11 09:08:14,391 1110   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b168fa9]
+2018-10-11 09:08:14,391 1110   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b168fa9]
+2018-10-11 09:08:14,391 1110   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1259769769 to pool.
+2018-10-11 10:23:00,530 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:23:00,658 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:23:00,658 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:23:00,658 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:23:00,658 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:23:30,015 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:23:30,138 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:23:30,138 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:23:30,138 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:23:30,138 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:23:30,255 241    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:23:30,988 974    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 999522307.
+2018-10-11 10:23:30,989 975    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b938003]
+2018-10-11 10:23:30,991 977    [           main] DEBUG theima.dao.UserDao.findByUsers  - ==>  Preparing: SELECT * from sys_user where name like "%"?"%" limit ?,? 
+2018-10-11 10:23:31,094 1080   [           main] DEBUG theima.dao.UserDao.findByUsers  - ==> Parameters: null, null, null
+2018-10-11 10:24:34,494 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:24:34,624 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:24:34,624 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:24:34,624 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:24:34,624 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:24:34,738 244    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:24:35,437 943    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 999522307.
+2018-10-11 10:24:35,437 943    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b938003]
+2018-10-11 10:24:35,439 945    [           main] DEBUG theima.dao.UserDao.findByUsers  - ==>  Preparing: SELECT * from sys_user where username like "%"?"%" limit ?,? 
+2018-10-11 10:24:35,521 1027   [           main] DEBUG theima.dao.UserDao.findByUsers  - ==> Parameters: null, null, null
+2018-10-11 10:29:16,028 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:29:16,152 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:29:16,152 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:29:16,152 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:29:16,152 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:29:16,263 235    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:29:16,848 820    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 999522307.
+2018-10-11 10:29:16,848 820    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b938003]
+2018-10-11 10:29:16,852 824    [           main] DEBUG theima.dao.UserDao.findByUsers  - ==>  Preparing: SELECT * from sys_user where username like "%"?"%" limit ?,? 
+2018-10-11 10:29:16,917 889    [           main] DEBUG theima.dao.UserDao.findByUsers  - ==> Parameters: null, null, null
+2018-10-11 10:32:25,378 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:32:25,496 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:32:25,496 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:32:25,496 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:32:25,496 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:32:25,500 122    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:32:25,500 122    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:32:25,501 123    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:32:25,501 123    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:32:25,501 123    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:32:25,502 124    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:32:25,502 124    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:32:25,678 300    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:32:25,679 301    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:32:25,679 301    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:32:25,679 301    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:32:25,679 301    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:32:25,680 302    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:32:25,681 303    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:32:25,681 303    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:32:25,681 303    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:32:25,682 304    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:32:25,976 598    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:32:26,594 1216   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 191037037.
+2018-10-11 10:32:26,595 1217   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b62fe6d]
+2018-10-11 10:32:26,597 1219   [           main] DEBUG theima.dao.UserDao.findByUsers  - ==>  Preparing: SELECT * from sys_user where username like "%"?"%" limit ?,? 
+2018-10-11 10:32:26,652 1274   [           main] DEBUG theima.dao.UserDao.findByUsers  - ==> Parameters: null, null, null
+2018-10-11 10:33:43,282 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:33:43,412 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:33:43,412 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:33:43,413 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:33:43,413 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:33:43,417 135    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:33:43,417 135    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:33:43,418 136    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:33:43,418 136    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:33:43,419 137    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:33:43,419 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:33:43,419 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:33:43,465 183    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:33:43,465 183    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:33:43,466 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:33:43,466 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:33:43,466 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:33:43,466 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:33:43,467 185    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:33:43,467 185    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:33:43,468 186    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:33:43,468 186    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:33:43,580 298    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:33:44,127 845    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 191037037.
+2018-10-11 10:33:44,127 845    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b62fe6d]
+2018-10-11 10:33:44,130 848    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==>  Preparing: SELECT * from sys_user 
+2018-10-11 10:33:44,187 905    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==> Parameters: 
+2018-10-11 10:33:44,228 946    [           main] DEBUG om.itheima.dao.UserDao.findAll  - <==      Total: 5
+2018-10-11 10:33:44,228 946    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b62fe6d]
+2018-10-11 10:33:44,229 947    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b62fe6d]
+2018-10-11 10:33:44,229 947    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 191037037 to pool.
+2018-10-11 10:36:16,143 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:36:16,324 181    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:36:16,324 181    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:36:16,324 181    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:36:16,324 181    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:36:16,332 189    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:36:16,333 190    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:36:16,333 190    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:36:16,334 191    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:36:16,334 191    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:36:16,335 192    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:36:16,335 192    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:36:16,391 248    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:36:16,391 248    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:36:16,391 248    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:36:16,391 248    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:36:16,391 248    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:36:16,393 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:36:16,394 251    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:36:16,394 251    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:36:16,395 252    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:36:16,397 254    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:36:16,568 425    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:36:17,391 1248   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 191037037.
+2018-10-11 10:36:17,391 1248   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b62fe6d]
+2018-10-11 10:36:17,394 1251   [           main] DEBUG theima.dao.UserDao.findByUsers  - ==>  Preparing: select * from sys_user where username like "%"?"%" limit ? ,? 
+2018-10-11 10:36:17,492 1349   [           main] DEBUG theima.dao.UserDao.findByUsers  - ==> Parameters: null, null, null
+2018-10-11 10:38:39,949 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:38:40,070 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:38:40,070 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:38:40,070 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:38:40,070 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:38:40,075 126    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:38:40,075 126    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:38:40,076 127    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:38:40,076 127    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:38:40,077 128    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:38:40,077 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:38:40,077 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:38:40,123 174    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:38:40,124 175    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:38:40,124 175    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:38:40,124 175    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:38:40,124 175    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:38:40,125 176    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:38:40,125 176    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:38:40,125 176    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:38:40,126 177    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:38:40,126 177    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:38:40,231 282    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:38:40,774 825    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 191037037.
+2018-10-11 10:38:40,775 826    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b62fe6d]
+2018-10-11 10:38:40,777 828    [           main] DEBUG theima.dao.UserDao.findByUsers  - ==>  Preparing: select * from sys_user where name like "%"?"%" limit ?,? 
+2018-10-11 10:38:40,830 881    [           main] DEBUG theima.dao.UserDao.findByUsers  - ==> Parameters: null, null, null
+2018-10-11 10:43:30,438 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:43:30,550 112    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:43:30,550 112    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:43:30,551 113    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:43:30,551 113    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:43:30,552 114    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:43:30,553 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:43:30,554 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:43:30,611 173    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 10:43:30,611 173    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 10:43:30,611 173    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:43:30,611 173    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:43:30,611 173    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:43:30,612 174    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2018-10-11 10:43:30,613 175    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:43:30,613 175    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:43:30,614 176    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 7
+2018-10-11 10:43:30,615 177    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 10:43:30,616 178    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 10:43:30,666 228    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:43:30,666 228    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:43:30,667 229    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:43:30,667 229    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:43:30,668 230    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:43:30,669 231    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:43:30,669 231    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:43:30,669 231    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:43:30,670 232    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:43:30,670 232    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:43:30,670 232    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:43:30,671 233    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:43:30,671 233    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:43:30,671 233    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:43:30,672 234    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:43:30,674 236    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:43:30,794 356    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:43:31,412 974    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 992802731.
+2018-10-11 10:43:31,412 974    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b2cf7ab]
+2018-10-11 10:43:31,414 976    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==>  Preparing: SELECT * from sys_user 
+2018-10-11 10:43:31,491 1053   [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==> Parameters: 
+2018-10-11 10:43:31,523 1085   [           main] DEBUG om.itheima.dao.UserDao.findAll  - <==      Total: 5
+2018-10-11 10:43:31,530 1092   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b2cf7ab]
+2018-10-11 10:43:31,530 1092   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b2cf7ab]
+2018-10-11 10:43:31,530 1092   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 992802731 to pool.
+2018-10-11 10:43:58,179 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:43:58,295 116    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:43:58,295 116    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:43:58,296 117    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:43:58,296 117    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:43:58,297 118    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:43:58,297 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:43:58,297 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:43:58,335 156    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 10:43:58,336 157    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 10:43:58,336 157    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:43:58,336 157    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:43:58,336 157    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:43:58,337 158    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-10-11 10:43:58,337 158    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:43:58,337 158    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:43:58,339 160    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 7
+2018-10-11 10:43:58,339 160    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 10:43:58,341 162    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 10:43:58,378 199    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:43:58,378 199    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:43:58,378 199    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:43:58,378 199    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:43:58,381 202    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:43:58,381 202    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:43:58,382 203    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:43:58,382 203    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:43:58,383 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:43:58,383 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:43:58,383 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:43:58,383 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:43:58,384 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:43:58,384 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:43:58,385 206    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:43:58,385 206    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:43:58,509 330    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:43:59,061 882    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1653986196.
+2018-10-11 10:43:59,061 882    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6295d394]
+2018-10-11 10:43:59,065 886    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==>  Preparing: SELECT * from sys_user 
+2018-10-11 10:43:59,130 951    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==> Parameters: 
+2018-10-11 10:43:59,156 977    [           main] DEBUG om.itheima.dao.UserDao.findAll  - <==      Total: 5
+2018-10-11 10:43:59,165 986    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6295d394]
+2018-10-11 10:43:59,165 986    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6295d394]
+2018-10-11 10:43:59,165 986    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1653986196 to pool.
+2018-10-11 10:48:56,498 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:48:56,601 103    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:48:56,601 103    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:48:56,602 104    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:48:56,602 104    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:48:56,603 105    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:48:56,603 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:48:56,603 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:48:56,637 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 10:48:56,637 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 10:48:56,638 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:48:56,638 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:48:56,638 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:48:56,639 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-10-11 10:48:56,640 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:48:56,640 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:48:56,640 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 7
+2018-10-11 10:48:56,641 143    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 10:48:56,642 144    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 10:48:56,677 179    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:48:56,678 180    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:48:56,678 180    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:48:56,678 180    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:48:56,680 182    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:48:56,680 182    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:48:56,682 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:48:56,682 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:48:56,684 186    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:48:56,684 186    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:48:56,684 186    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:48:56,685 187    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:48:56,686 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:48:56,686 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:48:56,687 189    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:48:56,687 189    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:48:56,832 334    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:48:57,388 890    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1043351526.
+2018-10-11 10:48:57,389 891    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e3047e6]
+2018-10-11 10:48:57,391 893    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==>  Preparing: SELECT * from sys_user 
+2018-10-11 10:48:57,436 938    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==> Parameters: 
+2018-10-11 10:48:57,471 973    [           main] DEBUG om.itheima.dao.UserDao.findAll  - <==      Total: 5
+2018-10-11 10:48:57,479 981    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e3047e6]
+2018-10-11 10:48:57,479 981    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e3047e6]
+2018-10-11 10:48:57,479 981    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1043351526 to pool.
+2018-10-11 10:50:52,603 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:50:52,701 98     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:50:52,701 98     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:50:52,702 99     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:50:52,702 99     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:50:52,703 100    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:50:52,703 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:50:52,703 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:50:52,737 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 10:50:52,737 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 10:50:52,738 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:50:52,738 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:50:52,738 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:50:52,740 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-10-11 10:50:52,740 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:50:52,741 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:50:52,741 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 7
+2018-10-11 10:50:52,742 139    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 10:50:52,744 141    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 10:50:52,780 177    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:50:52,780 177    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:50:52,780 177    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:50:52,781 178    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:50:52,782 179    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:50:52,782 179    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:50:52,783 180    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:50:52,783 180    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:50:52,784 181    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:50:52,784 181    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:50:52,784 181    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:50:52,785 182    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:50:52,786 183    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:50:52,786 183    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:50:52,786 183    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:50:52,786 183    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:50:52,936 333    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:50:53,470 867    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1043351526.
+2018-10-11 10:50:53,470 867    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e3047e6]
+2018-10-11 10:50:53,473 870    [           main] DEBUG eima.dao.UserDao.findByQueryVo  - ==>  Preparing: SELECT * from sys_user where username like "%"?"%" limit ? ,? 
+2018-10-11 10:50:53,530 927    [           main] DEBUG eima.dao.UserDao.findByQueryVo  - ==> Parameters: null, null, null
+2018-10-11 10:51:32,317 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:51:32,411 94     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:51:32,411 94     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:51:32,412 95     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:51:32,412 95     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:51:32,413 96     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:51:32,413 96     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:51:32,413 96     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:51:32,457 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 10:51:32,458 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 10:51:32,458 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:51:32,458 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:51:32,458 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:51:32,459 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-10-11 10:51:32,459 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:51:32,459 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:51:32,460 143    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 7
+2018-10-11 10:51:32,460 143    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 10:51:32,463 146    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 10:51:32,501 184    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:51:32,502 185    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:51:32,502 185    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:51:32,502 185    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:51:32,504 187    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:51:32,504 187    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:51:32,505 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:51:32,505 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:51:32,505 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:51:32,505 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:51:32,506 189    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:51:32,506 189    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:51:32,507 190    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:51:32,507 190    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:51:32,507 190    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:51:32,508 191    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:51:32,607 290    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:51:33,139 822    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1043351526.
+2018-10-11 10:51:33,139 822    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e3047e6]
+2018-10-11 10:51:33,141 824    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==>  Preparing: SELECT * from sys_user 
+2018-10-11 10:51:33,189 872    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==> Parameters: 
+2018-10-11 10:51:33,218 901    [           main] DEBUG om.itheima.dao.UserDao.findAll  - <==      Total: 5
+2018-10-11 10:51:33,225 908    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e3047e6]
+2018-10-11 10:51:33,225 908    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e3047e6]
+2018-10-11 10:51:33,225 908    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1043351526 to pool.
+2018-10-11 10:53:24,866 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:53:24,974 108    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:53:24,974 108    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:53:24,975 109    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:53:24,975 109    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:53:24,975 109    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:53:24,976 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:53:24,976 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:53:25,023 157    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 10:53:25,023 157    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 10:53:25,023 157    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:53:25,023 157    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:53:25,023 157    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:53:25,024 158    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-10-11 10:53:25,025 159    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:53:25,026 160    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:53:25,026 160    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 7
+2018-10-11 10:53:25,027 161    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 10:53:25,028 162    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 10:53:25,062 196    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:53:25,063 197    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:53:25,063 197    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:53:25,063 197    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:53:25,070 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:53:25,070 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:53:25,071 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:53:25,071 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:53:25,072 206    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:53:25,072 206    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:53:25,073 207    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:53:25,074 208    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:53:25,075 209    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:53:25,075 209    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:53:25,075 209    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:53:25,076 210    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:53:25,189 323    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:53:25,740 874    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 728258269.
+2018-10-11 10:53:25,740 874    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b6856dd]
+2018-10-11 10:53:25,744 878    [           main] DEBUG m.itheima.dao.UserDao.findById  - ==>  Preparing: select * from sys_user where id = ? 
+2018-10-11 10:53:25,790 924    [           main] DEBUG m.itheima.dao.UserDao.findById  - ==> Parameters: 2(Integer)
+2018-10-11 10:53:25,807 941    [           main] DEBUG m.itheima.dao.UserDao.findById  - <==      Total: 0
+2018-10-11 10:54:08,554 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:54:08,655 101    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:54:08,655 101    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:54:08,656 102    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:54:08,656 102    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:54:08,657 103    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:54:08,657 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:54:08,657 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:54:08,693 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 10:54:08,693 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 10:54:08,693 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:54:08,694 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:54:08,694 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:54:08,694 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-10-11 10:54:08,695 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:54:08,695 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:54:08,696 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 7
+2018-10-11 10:54:08,696 142    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 10:54:08,697 143    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 10:54:08,733 179    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:54:08,733 179    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:54:08,733 179    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:54:08,733 179    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:54:08,735 181    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:54:08,735 181    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:54:08,736 182    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:54:08,736 182    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:54:08,737 183    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:54:08,737 183    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:54:08,737 183    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:54:08,738 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:54:08,738 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:54:08,738 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:54:08,739 185    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:54:08,739 185    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:54:08,847 293    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:54:09,379 825    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 728258269.
+2018-10-11 10:54:09,380 826    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b6856dd]
+2018-10-11 10:54:09,382 828    [           main] DEBUG m.itheima.dao.UserDao.findById  - ==>  Preparing: select * from sys_user where id = ? 
+2018-10-11 10:54:09,426 872    [           main] DEBUG m.itheima.dao.UserDao.findById  - ==> Parameters: 3(Integer)
+2018-10-11 10:54:09,441 887    [           main] DEBUG m.itheima.dao.UserDao.findById  - <==      Total: 1
+2018-10-11 10:54:09,442 888    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b6856dd]
+2018-10-11 10:54:09,449 895    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b6856dd]
+2018-10-11 10:54:09,449 895    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 728258269 to pool.
+2018-10-11 10:57:19,389 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 10:57:19,488 99     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 10:57:19,488 99     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 10:57:19,488 99     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 10:57:19,489 100    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 10:57:19,489 100    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 10:57:19,490 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:57:19,490 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:57:19,527 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 10:57:19,528 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 10:57:19,528 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 10:57:19,528 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:57:19,528 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 10:57:19,529 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-10-11 10:57:19,531 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:57:19,532 143    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 10:57:19,532 143    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 7
+2018-10-11 10:57:19,535 146    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 10:57:19,538 149    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 10:57:19,574 185    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:57:19,575 186    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:57:19,575 186    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:57:19,575 186    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 10:57:19,577 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:57:19,577 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:57:19,579 190    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 10:57:19,579 190    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 10:57:19,580 191    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 10:57:19,580 191    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:57:19,580 191    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 10:57:19,581 192    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 10:57:19,581 192    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:57:19,581 192    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 10:57:19,583 194    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 10:57:19,583 194    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 10:57:19,726 337    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 10:57:20,307 918    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 728258269.
+2018-10-11 10:57:20,307 918    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b6856dd]
+2018-10-11 10:57:20,309 920    [           main] DEBUG eima.dao.UserDao.findByQueryVo  - ==>  Preparing: SELECT * from sys_user where username like "%"?"%" limit ? ,? 
+2018-10-11 10:57:20,367 978    [           main] DEBUG eima.dao.UserDao.findByQueryVo  - ==> Parameters: 力(String), 1(Integer), 2(Integer)
+2018-10-11 10:57:20,398 1009   [           main] DEBUG eima.dao.UserDao.findByQueryVo  - <==      Total: 1
+2018-10-11 10:57:20,398 1009   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b6856dd]
+2018-10-11 10:57:20,404 1015   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b6856dd]
+2018-10-11 10:57:20,404 1015   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 728258269 to pool.
+2018-10-11 11:03:21,955 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 11:03:22,056 101    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 11:03:22,056 101    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 11:03:22,057 102    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 11:03:22,057 102    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 11:03:22,058 103    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 11:03:22,058 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 11:03:22,058 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 11:03:22,105 150    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 11:03:22,106 151    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 11:03:22,106 151    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 11:03:22,106 151    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 11:03:22,107 152    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 11:03:22,107 152    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-10-11 11:03:22,108 153    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 11:03:22,108 153    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 11:03:22,109 154    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 7
+2018-10-11 11:03:22,109 154    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 11:03:22,110 155    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 11:03:22,149 194    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:03:22,150 195    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:03:22,150 195    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:03:22,150 195    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:03:22,152 197    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 11:03:22,152 197    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 11:03:22,153 198    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 11:03:22,155 200    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 11:03:22,155 200    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 11:03:22,155 200    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 11:03:22,155 200    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 11:03:22,156 201    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 11:03:22,156 201    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 11:03:22,157 202    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 11:03:22,158 203    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 11:03:22,158 203    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 11:03:22,293 338    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 11:03:22,881 926    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1790421142.
+2018-10-11 11:03:22,882 927    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ab7a896]
+2018-10-11 11:03:22,884 929    [           main] DEBUG .itheima.dao.UserDao.findUsers  - ==>  Preparing: SELECT * from sys_user where username like "%"?"%" limit ? ,? 
+2018-10-11 11:03:22,948 993    [           main] DEBUG .itheima.dao.UserDao.findUsers  - ==> Parameters: 力(String), 1(Integer), 2(Integer)
+2018-10-11 11:03:22,974 1019   [           main] DEBUG .itheima.dao.UserDao.findUsers  - <==      Total: 1
+2018-10-11 11:03:22,975 1020   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ab7a896]
+2018-10-11 11:03:22,981 1026   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ab7a896]
+2018-10-11 11:03:22,981 1026   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1790421142 to pool.
+2018-10-11 11:03:55,880 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 11:03:55,977 97     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 11:03:55,977 97     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 11:03:55,978 98     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 11:03:55,978 98     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 11:03:55,978 98     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 11:03:55,979 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 11:03:55,979 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 11:03:56,017 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 11:03:56,018 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 11:03:56,018 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 11:03:56,018 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 11:03:56,018 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 11:03:56,019 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-10-11 11:03:56,019 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 11:03:56,019 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 11:03:56,020 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 7
+2018-10-11 11:03:56,020 140    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 11:03:56,023 143    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 11:03:56,062 182    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:03:56,062 182    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:03:56,062 182    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:03:56,062 182    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:03:56,064 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 11:03:56,064 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 11:03:56,065 185    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 11:03:56,065 185    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 11:03:56,065 185    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 11:03:56,065 185    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 11:03:56,066 186    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 11:03:56,066 186    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 11:03:56,068 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 11:03:56,068 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 11:03:56,068 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 11:03:56,069 189    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 11:03:56,211 331    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 11:03:56,826 946    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1627857534.
+2018-10-11 11:03:56,826 946    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6107227e]
+2018-10-11 11:03:56,828 948    [           main] DEBUG eima.dao.UserDao.findByQueryVo  - ==>  Preparing: SELECT * from sys_user where username like "%"?"%" limit ? ,? 
+2018-10-11 11:03:56,870 990    [           main] DEBUG eima.dao.UserDao.findByQueryVo  - ==> Parameters: 力(String), 1(Integer), 2(Integer)
+2018-10-11 11:03:56,908 1028   [           main] DEBUG eima.dao.UserDao.findByQueryVo  - <==      Total: 1
+2018-10-11 11:03:56,909 1029   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6107227e]
+2018-10-11 11:03:56,915 1035   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6107227e]
+2018-10-11 11:03:56,915 1035   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1627857534 to pool.
+2018-10-11 11:16:19,772 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-11 11:16:19,875 103    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-11 11:16:19,875 103    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-11 11:16:19,876 104    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-11 11:16:19,876 104    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-11 11:16:19,877 105    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-11 11:16:19,877 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 11:16:19,877 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 11:16:19,916 144    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2018-10-11 11:16:19,916 144    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-10-11 11:16:19,917 145    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain
+2018-10-11 11:16:19,917 145    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 11:16:19,918 146    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/QueryVo.class
+2018-10-11 11:16:19,918 146    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-10-11 11:16:19,919 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 11:16:19,919 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/domain/User.class
+2018-10-11 11:16:19,920 148    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 7
+2018-10-11 11:16:19,920 148    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2018-10-11 11:16:19,922 150    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-10-11 11:16:19,964 192    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:16:19,964 192    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:16:19,964 192    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:16:19,964 192    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-11 11:16:19,967 195    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 11:16:19,967 195    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 11:16:19,968 196    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2018-10-11 11:16:19,968 196    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-10-11 11:16:19,968 196    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao
+2018-10-11 11:16:19,968 196    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 11:16:19,968 196    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.class
+2018-10-11 11:16:19,969 197    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4     findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; findById .(Ljava/lang/Integer;)Lcom/itheima/domain/User; saveUser (Lcom/itheima/domain/User;)V 
+2018-10-11 11:16:19,969 197    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 11:16:19,970 198    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/developent/IdeaProjects/Project66/mybatis_day02_5_curd_parameterType/target/classes/com/itheima/dao/UserDao.xml
+2018-10-11 11:16:19,970 198    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-10-11 11:16:19,972 200    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.UserDao matches criteria [is assignable to Object]
+2018-10-11 11:16:20,089 317    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-11 11:16:20,791 1019   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1790421142.
+2018-10-11 11:16:20,791 1019   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ab7a896]
+2018-10-11 11:16:20,793 1021   [           main] DEBUG .itheima.dao.UserDao.findByMap  - ==>  Preparing: SELECT * from sys_user where username like "%"?"%" limit ? ,? 
+2018-10-11 11:16:20,849 1077   [           main] DEBUG .itheima.dao.UserDao.findByMap  - ==> Parameters: 力(String), 1(Integer), 1(Integer)
+2018-10-11 11:16:20,876 1104   [           main] DEBUG .itheima.dao.UserDao.findByMap  - <==      Total: 1
+2018-10-11 11:16:20,877 1105   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ab7a896]
+2018-10-11 11:16:20,878 1106   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ab7a896]
+2018-10-11 11:16:20,878 1106   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1790421142 to pool.

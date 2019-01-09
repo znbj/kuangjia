@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test">
+
+    <!--查询所有-->
+    <select id="findAll" resultType="com.itheima.domain.User">
+        select * from sys_user
+    </select>
+
+    <!--id查询-->
+    <select id="findById" resultType="com.itheima.domain.User" parameterType="java.lang.Integer" >
+        SELECT * from sys_user where id = #{id}
+    </select>
+
+    <!--新增用户-->
+
+    <!--
+    selectKey 查询键值
+     order 添加之前查询 还是添加之后查询
+     keyProperty 对应pojo对象的属性名
+     keyColumn 对应数据库的列名
+     resultType 返回值类型
+     last_insert_id(); mysql数据库的函数  获取该表最后一次添加的自增的值
+    -->
+    <insert id="saveUser" parameterType="com.itheima.domain.User">
+        <selectKey order="AFTER" keyProperty="id" keyColumn="id" resultType="java.lang.Integer">
+          SELECT  last_insert_id();
+        </selectKey>
+        insert into sys_user values(null,#{username},#{sex},#{birthday},#{address})
+    </insert>
+
+    <!--模糊查询-->
+    <!--
+    1.  "%"#{name}"%" 传递参数 li
+    2.  '%${value}%'  传递参数li
+    3.  #{name} 传递参数%li%
+    -->
+    <select id="selectLike" parameterType="java.lang.String" resultType="com.itheima.domain.User">
+        SELECT * from sys_user WHERE username like "%"#{a}"%"
+
+    </select>
+
+    <!--删除-->
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        DELETE from sys_user where id =#{id}
+    </delete>
+    <!--修改-->
+    <update id="updateUser" parameterType="com.itheima.domain.User" >
+        UPDATE sys_user set username=#{username},sex= #{sex},birthday = #{birthday},address= #{address} where id =#{id}
+    </update>
+
+    <!--查询总数-->
+    <select id="selectCount" resultType="java.lang.Integer" >
+        select COUNT(*) from sys_user
+    </select>
+
+</mapper>

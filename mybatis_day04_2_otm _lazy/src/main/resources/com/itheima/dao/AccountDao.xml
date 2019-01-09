@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace 必须写dao接口的全类名
+-->
+<mapper namespace="com.itheima.dao.AccountDao">
+
+
+    <resultMap id="accounts" type="Account">
+        <id column="id" property="id"></id>
+        <result column="money" property="money"></result>
+        <result column="cardNumber" property="cardNumber"></result>
+        <result column="u_id" property="u_id"></result>
+    </resultMap>
+
+    <!--查询所有-->
+    <select id="findAll" resultMap="accounts" >
+      SELECT * FROM account a,sys_user su WHERE a.u_id=su.u_id
+    </select>
+
+    <!---->
+    <select id="findByUid" resultMap="accounts" parameterType="int">
+        select * from account where u_id=#{uid}
+    </select>
+</mapper>

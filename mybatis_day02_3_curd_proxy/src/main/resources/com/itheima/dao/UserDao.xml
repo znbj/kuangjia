@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+采用动态代理模式开发
+
+  namespace必须写dao接口的全类名
+
+-->
+<mapper namespace="com.itheima.dao.UserDao">
+    <!--id属性必须dao接口的方法名一-->
+    <select id="findAll" resultType="com.itheima.domain.User">
+        SELECT * from sys_user
+
+    </select>
+
+
+
+</mapper>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--
+   dtd约束
+        | :任选其一
+        , :必须按照规定顺序写标签
+        ? :可以重复一次或0次
+        * :0次或多次
+        + :1次或多次
+
+-->
+
+
+ <!--
+    properties?,   配置属性,引入属性的配置文件
+    settings?,     核心配置: 缓存 ,日志
+    typeAliases?,   类型别名配置
+    typeHandlers?,  类型转换操作
+    objectFactory?,
+    objectWrapperFactory:
+    reflectorFactory:
+    plugins:         引入mybatis的插件
+    environments      数据库环境配置
+    databaseIdProvider 数据库的以提供伤
+    mappers          引入映射配置文件
+
+
+    -->
+
+
+
+
+
+  <configuration>
+    <typeAliases>
+        <package name="com.itheima.domain"></package>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver" />
+                <property name="url" value="jdbc:mysql://127.0.0.1:3306/mybatis_db_66?characterEncoding=utf8" />
+                <property name="username" value="root" />
+                <property name="password" value="root" />
+            </dataSource>
+        </environment>
+    </environments>
+	<mappers>
+		<!--<mapper resource="com/itheima/dao/UserDao.xml"></mapper>-->
+        
+        <package name="com.itheima.dao"></package>
+    </mappers>
+</configuration>    

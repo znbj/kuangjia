@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybatis_day01_1_testJDBC" />
+        <module name="mybatis_day01_2_custom_mybatis" />
+        <module name="mybatis_day01_3_testCustom" />
+        <module name="mybatis_day01_4_mybatis_hello" />
+        <module name="mybatis_day02_1_crud" />
+        <module name="mybatis_day02_2_curd_common" />
+        <module name="mybatis_day02_3_curd_proxy" />
+        <module name="mybatis_day02_4_curd_config" />
+        <module name="mybatis_day02_5_curd_parameterType" />
+        <module name="mybatis_day02_6_curd_resultType" />
+        <module name="mybatis_day03_1_config" />
+        <module name="mybatis_day03_2_Dynamic_Sql" />
+        <module name="mybatis_day03_3_oto" />
+        <module name="mybatis_day03_4_otm" />
+        <module name="mybatis_day03_5_mtm" />
+        <module name="mybatis_day04_1_oto_lazy" />
+        <module name="mybatis_day04_2_otm _lazy" />
+        <module name="mybatis_day04_3_cache" />
+        <module name="mybatis_day04_4_ann_curd" />
+        <module name="mybatis_day04_5_ann_oto" />
+        <module name="mybatis_day04_6_ann_mtm" />
+        <module name="mybatis_day04_6_ann_otm" />
+        <module name="mybatis_day04_7_ann_otm" />
+        <module name="mybatis_day04_8_ann_Dynamic_sql" />
+        <module name="spring_day014_DI" />
+        <module name="spring_day01_2_IOC_custom" />
+        <module name="spring_day01_3_ioc_helloWorld" />
+        <module name="spring_day01_4_DI" />
+        <module name="spring_day02_1_Dbutils_crud" />
+        <module name="spring_day02_2_IOC_ann" />
+        <module name="spring_day03_1_transter" />
+        <module name="spring_day03_2_transter _proxy" />
+        <module name="spring_day03_3_transter _AOP" />
+        <module name="spring_day03_4_aop_xml" />
+        <module name="spring_day03_5_aop_ann" />
+        <module name="spring_day04_1_JdbcTemplate_curd" />
+        <module name="spring_day04_2_JdbcTemplate_curd_aop_xml" />
+        <module name="spring_day04_3_JdbcTemplate_curd_aop_ann" />
+        <module name="spring_security_hello" />
+        <module name="springmvc_day01_1_hello" />
+        <module name="springmvc_day01_2_param" />
+        <module name="springmvc_day02_1" />
+        <module name="springmvc_day02_2_upload" />
+        <module name="springmvc_day03_1_ssm" />
+        <module name="springmvc_day03_2_interceptor" />
+        <module name="ssm_Adao" />
+        <module name="ssm_Aservice" />
+        <module name="ssm_Aweb" />
+        <module name="ssm_domain" />
+        <module name="ssm_utils" />
+        <module name="testOJDBC" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="aaaaa" target="1.8" />
+      <module name="maven_parent" target="1.8" />
+      <module name="mybatis_day01_1_testJDBC" target="1.5" />
+      <module name="mybatis_day01_2_custom_mybatis" target="1.8" />
+      <module name="mybatis_day01_3_testCustom" target="1.8" />
+      <module name="mybatis_day01_4_mybatis_hello" target="1.8" />
+      <module name="mybatis_day02_1_crud" target="1.8" />
+      <module name="mybatis_day02_2_curd_common" target="1.8" />
+      <module name="mybatis_day02_3_curd_proxy" target="1.8" />
+      <module name="mybatis_day02_4_curd_config" target="1.8" />
+      <module name="mybatis_day02_5_curd_parameterType" target="1.8" />
+      <module name="mybatis_day02_6_curd_resultType" target="1.8" />
+      <module name="mybatis_day03_1_config" target="1.8" />
+      <module name="mybatis_day03_2_Dynamic_Sql" target="1.8" />
+      <module name="mybatis_day03_3_oto" target="1.8" />
+      <module name="mybatis_day03_4_otm" target="1.8" />
+      <module name="mybatis_day03_5_mtm" target="1.8" />
+      <module name="mybatis_day04_1_oto_lazy" target="1.8" />
+      <module name="mybatis_day04_2_otm _lazy" target="1.8" />
+      <module name="mybatis_day04_3_cache" target="1.8" />
+      <module name="mybatis_day04_4_ann_curd" target="1.8" />
+      <module name="mybatis_day04_5_ann_oto" target="1.8" />
+      <module name="mybatis_day04_6_ann_mtm" target="1.8" />
+      <module name="mybatis_day04_7_ann_otm" target="1.8" />
+      <module name="mybatis_day04_8_ann_Dynamic_sql" target="1.8" />
+      <module name="spring_day01_2_IOC_custom" target="1.8" />
+      <module name="spring_day01_3_ioc_helloWorld" target="1.8" />
+      <module name="spring_day01_4_DI" target="1.8" />
+      <module name="spring_day02_1_Dbutils_crud" target="1.8" />
+      <module name="spring_day02_2_IOC_ann" target="1.8" />
+      <module name="spring_day03_1_transter" target="1.8" />
+      <module name="spring_day03_2_transter _proxy" target="1.8" />
+      <module name="spring_day03_3_transter _AOP" target="1.8" />
+      <module name="spring_day03_4_aop_xml" target="1.8" />
+      <module name="spring_day03_5_aop_ann" target="1.8" />
+      <module name="spring_day04_1_JdbcTemplate_curd" target="1.8" />
+      <module name="spring_day04_2_JdbcTemplate_curd_aop_xml" target="1.8" />
+      <module name="spring_day04_3_JdbcTemplate_curd_aop_ann" target="1.8" />
+      <module name="spring_security_hello" target="1.8" />
+      <module name="springmvc_day01_1_hello" target="1.8" />
+      <module name="springmvc_day01_2_param" target="1.8" />
+      <module name="springmvc_day02_1" target="1.7" />
+      <module name="springmvc_day02_2_upload" target="1.7" />
+      <module name="springmvc_day03_1_ssm" target="1.8" />
+      <module name="springmvc_day03_2_interceptor" target="1.7" />
+      <module name="ssm_66" target="1.8" />
+      <module name="ssm_Adao" target="1.8" />
+      <module name="ssm_All" target="1.8" />
+      <module name="ssm_Aservice" target="1.8" />
+      <module name="ssm_Aweb" target="1.7" />
+      <module name="ssm_dao" target="1.8" />
+      <module name="ssm_domain" target="1.8" />
+      <module name="ssm_service" target="1.8" />
+      <module name="ssm_utils" target="1.8" />
+      <module name="ssm_web" target="1.8" />
+      <module name="testOJDBC" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

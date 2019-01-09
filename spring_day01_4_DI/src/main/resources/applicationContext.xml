@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- set方法注入-->
+    <bean id="User" class="com.itheima.domain.User" >
+        <property name="id" value="1"></property>
+        <property name="name" value="张"></property>
+        <property name="birthday" ref="birthday"></property>
+        <property name="list">
+            <list>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+            </list>
+        </property>
+    </bean>
+    <!-- 构造方法注入 -->
+    <!--<bean id="User" class="com.itheima.domain.User">
+        <constructor-arg index="0" value="2"></constructor-arg>
+        <constructor-arg index="1" value="li"></constructor-arg>
+        <constructor-arg index="2" ref="birthday"></constructor-arg>
+    </bean>-->
+
+    <!--通过类型注入-->
+   <!-- <bean id="User" class="com.itheima.domain.User">
+        <constructor-arg type="java.lang.Integer" value="1"></constructor-arg>
+        <constructor-arg type="java.lang.String" value="1"></constructor-arg>
+        <constructor-arg type="java.util.Date" ref="birthday"></constructor-arg>
+    </bean>-->
+    <!--通过名称注入-->
+   <!-- <bean id="User" class="com.itheima.domain.User">
+        <constructor-arg name="id" value="1"></constructor-arg>
+        <constructor-arg name="name" value="1"></constructor-arg>
+        <constructor-arg name="birthday" ref="birthday"></constructor-arg>
+
+    </bean>-->
+    <bean id="birthday" class="java.util.Date"></bean>
+
+</beans>

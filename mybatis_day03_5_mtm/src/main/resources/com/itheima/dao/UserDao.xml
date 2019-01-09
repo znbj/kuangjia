@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace 必须写dao接口的全类名
+-->
+<mapper namespace="com.itheima.dao.UserDao">
+    <!-- 映射-->
+    <resultMap id="users" type="user">
+        <id column="u_id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="address" property="address"></result>
+        <collection property="roleList" ofType="role">
+            <!--关联多个对象
+            accountList: 映射的属性名
+            ofType：关联的类型
+        -->
+            <id column="id" property="id"></id>
+            <result column="roleName" property="roleName"></result>
+        </collection>
+
+    </resultMap>
+    <!-- sql片段  把一些重复使用的sql语句提取出来
+         id为唯一标志
+         文本是指向sql语句
+          <include refid="select_user" ></include>
+
+          refid:关联的id
+
+
+-->
+    <!--查询所有-->
+    <select id="findAll" resultMap="users">
+     select u.*,r.* from sys_user u left join user_role ur on u.u_id = ur.uid left join role r on ur.rid = r.id
+
+    </select>
+    
+
+</mapper>

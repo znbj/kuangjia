@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+
+    <context:component-scan base-package="com.itheima"></context:component-scan>
+    <context:property-placeholder location="classpath:jdbc.properties"></context:property-placeholder>
+    <bean id="qr" class="org.apache.commons.dbutils.QueryRunner">
+
+    </bean>
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" >
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+        <property name="user" value="${jdbc.username}"></property>
+        <property name="driverClass" value="${jdbc.driver}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+    <aop:config>
+        <aop:aspect ref="txManger">
+            <aop:pointcut id="tfMethod" expression="execution(* com.itheima.service..*.*(..))" ></aop:pointcut>
+
+            <aop:before method="beginTransaction" pointcut-ref="tfMethod"></aop:before>
+            <aop:after-returning method="commit" pointcut-ref="tfMethod"></aop:after-returning>
+            <aop:after-throwing method="rollback" pointcut-ref="tfMethod"></aop:after-throwing>
+            <aop:after method="release" pointcut-ref="tfMethod"></aop:after>
+        </aop:aspect>
+
+    </aop:config>
+
+
+</beans>

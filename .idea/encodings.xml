@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/aaaaa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven_parent/ssm_dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven_parent/ssm_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven_parent/ssm_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_security_hello" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_day01_1_hello" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_day01_2_param" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_day02_1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_day02_2_upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_day03_1_ssm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_day03_2_interceptor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm_66" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm_All" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm_All/ssm_Adao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm_All/ssm_Aservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm_All/ssm_Aweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm_All/ssm_domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm_All/ssm_utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testOJDBC" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace 必须写dao接口的全类名
+-->
+<mapper namespace="com.itheima.dao.UserDao">
+    <!-- 映射-->
+    <resultMap id="users" type="user">
+        <id column="u_id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="address" property="address"></result>
+    </resultMap>
+    <!-- sql片段  把一些重复使用的sql语句提取出来
+         id为唯一标志
+         文本是指向sql语句
+          <include refid="select_user" ></include>
+
+          refid:关联的id
+
+    -->
+    <sql id="select_user">
+        select * from sys_user
+    </sql>
+
+    <!--查询所有-->
+    <select id="findAll" resultMap="users">
+       <include refid="select_user"></include>
+    </select>
+    
+    <!--保存-->
+    <insert id="save" parameterType="user">
+        insert into sys_user VALUES (null,#{username},#{sex},#{birthday},#{address})
+    </insert>
+
+    <!-- 多条件查询   if   动态sql-->
+
+
+    <select id="findByCondition1" parameterType="user" resultMap="users">
+        <include refid="select_user" ></include>   where   1=1
+        <if test="username!=null and username != ''">
+           AND  username LIKE "%"#{username}"%"
+        </if>
+
+        <if test="sex!=null and sex!=''">
+          and sex=#{sex}
+
+        </if>
+    </select>
+
+    <!-- 多条件查询  where 动态sql
+           可以自动的处理第一个and
+
+    -->
+    <select id="findByCondition" parameterType="user" resultMap="users">
+        <include refid="select_user" ></include>
+        <where>
+
+        <if test="username!=null and username != ''  ">
+             username LIKE "%"#{username}"%"
+        </if>
+
+        <if test="sex!=null and sex!='' ">
+           AND sex=#{sex}
+
+        </if>
+        </where>
+    </select>
+
+    <!-- foreach 删除多个    -->
+
+    <!--
+    foreach 循环标签
+        parameterType="" 传递数据或集合 就不写了
+       collection 传递参数的类型 List array
+        open  以什么开头
+        separator  分隔符
+        item    遍历的元素
+        close   以什么结尾
+    -->
+    <delete id="del">
+        DELETE from sys_user 
+        <if test="array!=null" >
+            <foreach collection="array" open="where id in (" separator="," item="id" close=")">
+              #{id}
+            </foreach>
+            
+        </if>
+    </delete>
+
+    <!-- list -->
+    <delete id="delByList">
+        DELETE from sys_user
+        <if test="list!=null" >
+            <foreach collection="list" open="where id in (" separator="," item="id" close=")">
+                #{id}
+            </foreach>
+
+        </if>
+    </delete>
+</mapper>

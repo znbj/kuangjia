@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace 必须写dao接口的全类名
+-->
+<mapper namespace="com.itheima.dao.UserDao">
+    <resultMap id="users" type="user">
+        <id column="u_id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="address" property="address"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="sex" property="sex"></result>
+    </resultMap>
+
+    <select id="findById" parameterType="int" resultMap="users">
+        select * from sys_user where u_id =#{id}
+    </select>
+</mapper>

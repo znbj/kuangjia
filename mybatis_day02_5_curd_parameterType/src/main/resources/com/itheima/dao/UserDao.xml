@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+采用动态代理模式开发
+
+  namespace必须写dao接口的全类名
+
+-->
+<mapper namespace="com.itheima.dao.UserDao">
+    <!--id属性必须dao接口的方法名一-->
+    <select id="findAll" resultType="User">
+        SELECT * from sys_user
+    </select>
+
+    <select id="findByQueryVo" resultType="User" parameterType="queryvo">
+        SELECT * from sys_user where username like "%"#{user.username}"%" limit #{startIndex} ,#{pageSize}
+    </select>
+
+    <select id="findById" parameterType="int" resultType="user">
+        select * from sys_user where id = #{id}
+    </select>
+
+    <select id="findUsers" resultType="User" >
+        SELECT * from sys_user where username like "%"#{param3}"%" limit #{param1} ,#{param2}
+    </select>
+
+    <select id="findByMap" resultType="User"  parameterType="map">
+        SELECT * from sys_user where username like "%"#{name}"%" limit #{startIndex} ,#{pageSize}
+    </select>
+
+</mapper>
